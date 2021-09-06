@@ -1,0 +1,25 @@
+.book{
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+}
+
+.table2,.table1,.table3{
+    margin-top: 30px;
+    border: 2px solid Black;
+    z-index: 30;
+}
+.heading{
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    font-size: 2em;
+}
+.btn{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+label{
+    margin-top: 20px;
+}

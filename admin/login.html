@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <title>ADMIN PANEL</title>
+</head>
+
+<body>
+
+    <header class="p-5 text-center backgroundDark shadow">
+        <h2 class="text-white">Login</h2>
+    </header>
+    <div class="container">
+        <div class="py-3">
+            <div class="form p-3 bg-white rounded shadow">
+                
+                <div class="inputGroup py-2">
+                    <label for="email">Email</label>
+                    <input type="email" class="inp" placeholder="Email" name="" id="email">
+                </div>
+                <div class="inputGroup py-2">
+                    <label for="password">Password</label>
+                    <input type="password" class="inp" placeholder="Password" name="" id="password">
+                </div>
+                <div class="inputGroup py-2">
+                    <button onclick="login()" class="btn backgroundDark text-light blck">Regitser</button>
+                    <button onclick="home()" class="btn backgroundDark text-light blck my-3">BACK TO HOME</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- ----------------------------------------------------- -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <!--   TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+    apiKey: "AIzaSyAO4_7HQ9X0zbdLbM23ZavyuxEI-q5zoqY",
+    authDomain: "royal-samah.firebaseapp.com",
+    projectId: "royal-samah",
+    storageBucket: "royal-samah.appspot.com",
+    messagingSenderId: "894655705314",
+    appId: "1:894655705314:web:b5d0a543149da3e3e76ebb",
+    measurementId: "G-D62T4MMB6Q"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    </script>
+
+    <!-- ----------------------------------------------------- -->
+    <!-- <script type="text/javascript">
+    function disableBack() { window.history.forward(); }
+    setTimeout("disableBack()", 0);
+    window.onunload = function () { null };
+    </script> -->
+    <!-- ----------------------------------------------------- -->
+    
+    <script src="../js/app.js"></script>
+</body>
+
+</html>

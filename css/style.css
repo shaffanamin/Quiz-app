@@ -1,0 +1,26 @@
+.question{
+    background-color: #e5383b;
+}
+.option{
+    background-color: #e5383b;
+}
+
+.mainDiv{
+    background-color: #660708;
+}
+.divOfOptions{
+    background-color: #660708;
+}
+button:hover{
+    opacity: 0.7;
+}
+button{
+    align-content: center;
+    color: aliceblue !important;
+    background-color: #f25c54 !important;
+    z-index: 200;
+}
+.container{
+    margin-top: 150px;
+    border-radius: 30px;
+}
